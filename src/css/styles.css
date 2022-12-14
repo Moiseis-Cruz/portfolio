@@ -1,0 +1,123 @@
+body {
+    font-size: 1.6rem;
+    background-color: var(--color-quartiary);
+    margin: 0 auto;
+    max-width: 1140px;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+header .logo {
+    width: 80px;
+    height: 80px;
+    font-size: 3.5rem;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+header .logo:hover {
+    color: var(--color-hover);
+    border: 5px solid var(--color-hover);
+}
+
+header .logo:active {
+    color: var(--color-active);
+    border: 5px solid var(--color-active);
+}
+
+.hero {
+    padding: 40px;
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hero p {
+    font-size: 2.4rem;
+    margin-bottom: 10px;
+}
+
+.hero h1 {
+    font-size: 4.5rem;
+    margin-bottom: 15px;
+}
+
+.hero h2 {
+    font-size: 2.4rem;
+    margin-bottom: 30px;
+}
+
+.container-hero ul li a {
+    margin-bottom: 10px;
+    width: 40px;
+    height: 40px;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 0 5px;
+    transition: 0.5s;
+    box-shadow: -5px -5px 5px rgb(175, 175, 175),
+    5px 5px 5px rgb(44, 44, 44);
+}
+
+.container-hero ul li a:hover {
+    color: var(--color-hover);
+}
+
+.container-hero ul li a:active {
+    color: var(--color-active);
+}
+
+.hero .hero-image {
+    max-width: 450px;
+    max-height: 450px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px 5px rgb(53, 53, 53), -5px -5px 5px rgb(157, 157, 157);
+    padding: 15px;
+}
+
+.hero .hero-image img {
+    margin: auto;
+    border-radius: 50%;
+    max-width: 100%;
+    max-height: 100%;
+    box-shadow: 5px 5px 5px 5px rgb(53, 53, 53), -5px -5px 5px rgb(157, 157, 157);
+}
+
+.about {
+    top: 100px;
+    position: relative;
+    background-color: gray;
+}
+
+.container-about {
+    display: flex;
+}
+
+.container-about-image {
+    max-width: 430px;
+    max-height: 430px;
+    box-shadow: -5px -5px 5px 5px rgb(77, 77, 77), 5px 5px 5px 5px rgb(75, 75, 75);
+}
+
+.container-about-image img {
+    width: 100%;
+    padding: 10px;
+    box-shadow: -5px -5px 5px 5px rgb(77, 77, 77), 5px 5px 5px 5px rgb(75, 75, 75);
+}
