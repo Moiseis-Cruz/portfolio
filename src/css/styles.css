@@ -124,13 +124,13 @@ header .logo:active {
 .container-about-image {
     max-width: 430px;
     max-height: 430px;
-    box-shadow: -5px -5px 5px 5px rgb(77, 77, 77), 5px 5px 5px 5px rgb(75, 75, 75);
+    box-shadow: -5px -5px 5px rgb(77, 77, 77), 5px 5px 5px rgb(41, 41, 41);
 }
 
 .container-about-image img {
     width: 100%;
     padding: 10px;
-    box-shadow: -5px -5px 5px 5px rgb(77, 77, 77), 5px 5px 5px 5px rgb(75, 75, 75);
+    box-shadow: -5px -5px 5px rgb(77, 77, 77), 5px 5px 5px rgb(41, 41, 41);
 }
 
 .container-about-description {
@@ -138,5 +138,5 @@ header .logo:active {
 
 .description-about {
     font-size: 1.8rem;
-    margin-top: 25px;
+    margin-top: 30px;
 }
