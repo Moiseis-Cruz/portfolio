@@ -107,6 +107,12 @@ header .logo:active {
     background-color: gray;
 }
 
+.about .subtitle-abrout {
+    font-size: 4.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
 .container-about {
     display: flex;
 }
