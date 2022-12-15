@@ -102,6 +102,8 @@ header .logo:active {
 }
 
 .about {
+    width: 100%;
+    min-height: 100vh;
     top: 100px;
     position: relative;
     font-family: 'Poppins', sans-serif;
@@ -161,4 +163,14 @@ header .logo:active {
 
 .container-about-description a:active {
     background-color: var(--color-active);
+}
+
+.skills {
+    margin-top: 100px;
+}
+
+.skills .subtitle-skills {
+    font-size: 4.5rem;
+    font-weight: 400;
+    text-align: center;
 }
