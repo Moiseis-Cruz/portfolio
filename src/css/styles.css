@@ -178,10 +178,20 @@ header .logo:active {
 .skills .skill {
     width: 350px;
     background-color: red;
+    text-align: center;
+}
+
+.skills .container-skills .name-skill {
+    font-size: 3rem;
+}
+
+.skills .container-skills .description-skill {
+    font-size: 1.8rem;
 }
 
 .skills .container-skills .skill .icon {
     width: 80px;
     height: 80px;
     font-size: 80px;
+    margin: 0 auto;
 }
