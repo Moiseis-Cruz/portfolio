@@ -169,6 +169,13 @@ header .logo:active {
     margin-top: 100px;
 }
 
+.skills .container-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
 .skills .subtitle-skills {
     font-size: 4.5rem;
     font-weight: 400;
@@ -177,8 +184,13 @@ header .logo:active {
 
 .skills .skill {
     width: 350px;
-    background-color: red;
     text-align: center;
+    padding: 40px 20px;
+    transition: 0.5s ease-in-out;
+}
+
+.skills .skill:hover {
+    color: var(--color-hover);
 }
 
 .skills .container-skills .name-skill {
