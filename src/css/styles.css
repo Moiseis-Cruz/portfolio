@@ -195,10 +195,13 @@ header .logo:active {
 
 .skills .container-skills .name-skill {
     font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
 }
 
 .skills .container-skills .description-skill {
     font-size: 1.8rem;
+    font-weight: 300;
 }
 
 .skills .container-skills .skill .icon {
