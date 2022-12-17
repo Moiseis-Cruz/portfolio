@@ -115,7 +115,7 @@ header .logo:active {
     text-align: center;
 }
 
-.container-about {
+.about .container-about {
     display: flex;
     margin-top: 30px;
     padding: 20px;
@@ -173,4 +173,15 @@ header .logo:active {
     font-size: 4.5rem;
     font-weight: 400;
     text-align: center;
+}
+
+.skills .skill {
+    width: 350px;
+    background-color: red;
+}
+
+.skills .container-skills .skill .icon {
+    width: 80px;
+    height: 80px;
+    font-size: 80px;
 }
