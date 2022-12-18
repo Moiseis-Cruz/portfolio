@@ -219,5 +219,6 @@ header .logo:active {
 
 .projects .container-projects .project {
     background-color: blueviolet;
-    width: 270px;
+    width: 550px;
+    height: 750px;
 }
