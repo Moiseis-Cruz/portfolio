@@ -74,7 +74,7 @@ header .logo:active {
     margin: 0 5px;
     transition: 0.5s;
     box-shadow: -5px -5px 5px rgb(175, 175, 175),
-    5px 5px 5px rgb(44, 44, 44);
+    5px 5px 5px rgb(2, 2, 2);
 }
 
 .container-hero ul li a:hover {
