@@ -73,8 +73,8 @@ header .logo:active {
     border-radius: 50%;
     margin: 0 5px;
     transition: 0.5s;
-    box-shadow: -5px -5px 5px rgb(175, 175, 175),
-    5px 5px 5px rgb(2, 2, 2);
+    box-shadow: -3px -3px 3px rgb(175, 175, 175),
+    3px 3px 3px rgb(2, 2, 2);
 }
 
 .container-hero ul li a:hover {
@@ -196,7 +196,7 @@ header .logo:active {
 .skills .container-skills .name-skill {
     font-size: 3rem;
     font-family: 'Poppins', sans-serif;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .skills .container-skills .description-skill {
