@@ -7,36 +7,6 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px;
-}
-
-header .logo {
-    width: 80px;
-    height: 80px;
-    font-size: 3.5rem;
-    border-radius: 50%;
-    border: 5px solid #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: underline;
-    transition: 0.5s;
-}
-
-header .logo:hover {
-    color: var(--color-hover);
-    border: 5px solid var(--color-hover);
-}
-
-header .logo:active {
-    color: var(--color-active);
-    border: 5px solid var(--color-active);
-}
-
 .hero {
     padding: 40px;
     width: 100%;
