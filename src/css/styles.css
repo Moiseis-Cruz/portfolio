@@ -216,9 +216,3 @@ header .logo:active {
     font-weight: 500;
     text-align: center;
 }
-
-.projects .container-projects .project {
-    background-color: blueviolet;
-    width: 550px;
-    height: 750px;
-}
