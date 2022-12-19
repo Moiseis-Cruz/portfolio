@@ -160,7 +160,7 @@ body {
 }
 
 .skills .skill:hover {
-    color: var(--color-hover);
+    color: var(--color-primary);
 }
 
 .skills .container-skills .name-skill {

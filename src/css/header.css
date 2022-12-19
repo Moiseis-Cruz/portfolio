@@ -126,7 +126,7 @@ header input:checked ~ label .hamburguer::after {
 
     header nav ul {
         width: 200px;
-        background-color: orangered;
+        background-color: var(--color-primary);
         padding: 10px;
     }
 
