@@ -187,10 +187,16 @@ body {
     text-align: center;
 }
 
+.projects .container-projects {
+    background-color: rebeccapurple;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
 .projects .container-projects .project {
+    margin: auto;
     width: 270px;
     height: 370px;
-    color: blue;
     position: relative;
 }
 
