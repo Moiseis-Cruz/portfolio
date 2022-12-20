@@ -136,7 +136,10 @@ body {
 }
 
 .skills {
-    margin-top: 100px;
+    width: 100%;
+    min-height: 100vh;
+    top: 100px;
+    position: relative;
 }
 
 .skills .container-skills {
@@ -181,6 +184,13 @@ body {
     margin: 0 auto;
 }
 
+.projects {
+    width: 100%;
+    min-height: 100vh;
+    top: 100px;
+    position: relative;
+}
+
 .projects .subtitle-projects {
     font-size: 4.5rem;
     font-weight: 500;
@@ -188,7 +198,8 @@ body {
 }
 
 .projects .container-projects {
-    background-color: rebeccapurple;
+    /* Talvez precise do background-color para mexer na centralização dos elementos */
+    /* background-color: rebeccapurple; */
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
