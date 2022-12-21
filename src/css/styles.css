@@ -198,8 +198,6 @@ body {
 }
 
 .projects .container-projects {
-    /* Talvez precise do background-color para mexer na centralização dos elementos */
-    /* background-color: rebeccapurple; */
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin-top: 50px;
