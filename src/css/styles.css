@@ -207,13 +207,18 @@ body {
 
 .projects .container-projects .project {
     margin: auto;
-    width: 270px;
-    height: 370px;
+    max-width: 270px;
+    max-height: 370px;
     position: relative;
 }
 
 .projects .container-projects .project img {
     width: 100%;
+    transition: 0.3s ease-in-out;
+}
+
+.projects .container-projects .project img:hover {
+    opacity: 0.8;
 }
 
 .projects .informations {
