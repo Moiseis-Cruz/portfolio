@@ -119,14 +119,15 @@ header input:checked ~ label .hamburguer::after {
 
     header nav {
         position: absolute;
-        top: 8px;
-        right: 0;
+        top: 40px;
+        right: 40px;
         z-index: 1;
     }
 
     header nav ul {
         width: 200px;
         background-color: var(--color-primary);
+        border-radius: 20px;
         padding: 10px;
     }
 
