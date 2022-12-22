@@ -224,3 +224,10 @@ body {
     bottom: 15px;
     left: 15px;
 }
+
+footer {
+    position: relative;
+    top: 100px;
+    width: 100%;
+    background-color: blueviolet;
+}
