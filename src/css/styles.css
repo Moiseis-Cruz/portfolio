@@ -229,5 +229,26 @@ footer {
     position: relative;
     top: 100px;
     width: 100%;
-    background-color: blueviolet;
+    padding: 40px;
+    text-align: center;
+}
+
+footer .contacts {
+    font-size: 2rem;
+    margin-top: 50px;
+}
+
+footer .contacts ul li {
+}
+
+footer .contacts ul li a {
+    width: 50px;
+    height: 50px;
+    border: 2px solid transparent;
+    box-shadow: 5px 5px 5px rgb(15, 15, 15), -5px -5px 5px rgb(137, 137, 137);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 15px;
+    border-radius: 20px;
 }
