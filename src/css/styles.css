@@ -3,11 +3,11 @@ body {
     color: #fff;
     font-family: 'Raleway', sans-serif;
     background-color: var(--color-quartiary);
-    margin: 0 auto;
-    max-width: 1140px;
 }
 
 main {
+    margin: 0 auto;
+    max-width: 1140px;
 }
 
 .hero {
