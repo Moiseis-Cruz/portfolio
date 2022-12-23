@@ -11,6 +11,7 @@ body {
     padding: 40px;
     width: 100%;
     min-height: 80vh;
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,7 +34,6 @@ body {
 }
 
 .container-hero ul li a {
-    margin-bottom: 10px;
     width: 40px;
     height: 40px;
     font-size: 2rem;
@@ -227,8 +227,9 @@ body {
 
 footer {
     position: relative;
-    top: 100px;
+    top: 200px;
     width: 100%;
+    min-height: 50vh;
     padding: 40px;
     text-align: center;
 }
@@ -246,6 +247,6 @@ footer .contacts ul li a {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 15px;
+    margin: 15px;
     border-radius: 20px;
 }
