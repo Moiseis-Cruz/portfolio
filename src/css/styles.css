@@ -6,7 +6,7 @@ body {
 }
 
 main {
-    margin: 0 auto;
+    /* background: #000 url(../images/tech.jpg) no-repeat right bottom fixed ; */
     max-width: 1140px;
 }
 
