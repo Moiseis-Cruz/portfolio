@@ -13,8 +13,6 @@ main {
 .hero {
     padding: 40px;
     width: 100%;
-    min-height: 80vh;
-    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -76,9 +74,7 @@ main {
 
 .about {
     width: 100%;
-    min-height: 100vh;
-    top: 100px;
-    position: relative;
+    padding-top: 100px;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -140,9 +136,7 @@ main {
 
 .skills {
     width: 100%;
-    min-height: 100vh;
-    top: 100px;
-    position: relative;
+    padding-top: 100px;
 }
 
 .skills .container-skills {
@@ -189,9 +183,7 @@ main {
 
 .projects {
     width: 100%;
-    min-height: 100vh;
-    top: 200px;
-    position: relative;
+    padding: 100px 0;
 }
 
 .projects .subtitle-projects {
@@ -229,10 +221,7 @@ main {
 }
 
 footer {
-    position: relative;
-    top: 200px;
     width: 100%;
-    min-height: 30vh;
     padding: 40px;
     text-align: center;
     background-color: rgb(133, 133, 133);
