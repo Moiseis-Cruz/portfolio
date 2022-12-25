@@ -6,7 +6,7 @@ body {
 }
 
 main {
-    /* background: #000 url(../images/tech.jpg) no-repeat right bottom fixed ; */
+    margin: 0 auto;
     max-width: 1140px;
 }
 
@@ -221,6 +221,7 @@ main {
 }
 
 footer {
+    background: #000 url(../images/tech.jpg) no-repeat right bottom fixed;
     width: 100%;
     padding: 40px;
     text-align: center;
