@@ -243,4 +243,13 @@ footer .contacts ul li a {
     justify-content: center;
     margin: 15px;
     border-radius: 20px;
+    transition: 0.5s ease-in-out;
+}
+
+footer .contacts ul li a:hover {
+    color: var(--color-hover);
+}
+
+footer .contacts ul li a:active {
+    color: var(--color-active);
 }
