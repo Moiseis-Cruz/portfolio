@@ -1,6 +1,6 @@
 body {
     font-size: 1.6rem;
-    color: #fff;
+    color: var(--color-secundary);
     font-family: 'Raleway', sans-serif;
     background-color: var(--color-quartiary);
 }
@@ -215,6 +215,7 @@ main {
 
 .projects .container-projects .project img:hover {
     opacity: 0.8;
+    box-shadow: 5px 5px 5px var(--color-secundary);
 }
 
 .projects .informations {
