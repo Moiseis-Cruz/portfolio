@@ -215,14 +215,14 @@ main {
 
 .projects .container-projects .project img:hover {
     opacity: 0.8;
-    box-shadow: 5px 5px 5px var(--color-secundary);
+    box-shadow: 5px 5px 5px 5px var(--color-secundary), -5px -5px 5px 5px var(--color-secundary);
 }
 
 .projects .informations {
     position: absolute;
     bottom: 15px;
     left: 15px;
-    color: darkred;
+    color: var(--color-tertiary);
 }
 
 footer {
