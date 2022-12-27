@@ -27,9 +27,9 @@
     } */
 }
 
-/* @media (max-width: 570px) {
+@media (max-width: 570px) {
     .projects .container-projects {
         grid-template-columns:  1fr;
         grid-template-rows: repeat(4, 1fr);
     }
-} */
+}
