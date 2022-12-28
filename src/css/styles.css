@@ -194,15 +194,15 @@ main {
 
 .projects .container-projects {
     display: grid;
+    width: 100%;
     grid-template-columns: repeat(2, 1fr);
-    /* display: flex; */
-    /* justify-content: center; */
-    /* flex-wrap: wrap; */
     margin-top: 50px;
+    padding: 15px;
+    gap: 15px;
 }
 
 .projects .container-projects .project {
-    margin: 10px;
+    margin: auto;
     max-width: 550px;
     max-height: auto;
     position: relative;
@@ -223,6 +223,8 @@ main {
     bottom: 15px;
     left: 15px;
     color: var(--color-tertiary);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
 }
 
 footer {
