@@ -223,8 +223,8 @@ main {
     bottom: 15px;
     left: 15px;
     color: var(--color-tertiary);
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #000;
+    /* -webkit-text-stroke-width: 1px; */
+    /* -webkit-text-stroke-color: #000; */
 }
 
 footer {
