@@ -117,7 +117,7 @@ main {
 
 .container-about-description a {
     padding: 10px 20px;
-    background-color: orange;
+    background-color: var(--color-tertiary);
     border-radius: 15px;
     font-size: 2.4rem;
     margin-top: 20px;
@@ -162,6 +162,7 @@ main {
 
 .skills .skill:hover {
     color: var(--color-primary);
+    transform: scale(1.1, 1.1);
 }
 
 .skills .container-skills .name-skill {
