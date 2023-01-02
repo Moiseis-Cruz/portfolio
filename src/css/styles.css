@@ -230,7 +230,7 @@ main {
 }
 
 footer {
-    background: #000 url(../images/tech.jpg) no-repeat right bottom fixed;
+    background: #000 url(../images/tech.jpg) no-repeat center center fixed;
     background-size: cover;
     width: 100%;
     padding: 40px;
