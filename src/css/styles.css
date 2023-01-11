@@ -162,7 +162,7 @@ main {
 
 .skills .skill:hover {
     color: var(--color-primary);
-    transform: scale(1.1, 1.1);
+    transform: scale(1.1);
 }
 
 .skills .container-skills .name-skill {
@@ -221,7 +221,7 @@ main {
 
 .projects .container-projects .project img:hover {
     /* opacity: 0.8; */
-    scale: 1.1;
+    transform: scale(1.05);
     box-shadow: 5px 5px 5px 5px var(--color-secundary), -5px -5px 5px 5px var(--color-secundary);
 }
 
