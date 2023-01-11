@@ -215,8 +215,13 @@ main {
     transition: 0.3s ease-in-out;
 }
 
+.projects .container-projects .project img:not(:hover) {
+    opacity: 0.3;
+}
+
 .projects .container-projects .project img:hover {
-    opacity: 0.8;
+    /* opacity: 0.8; */
+    scale: 1.1;
     box-shadow: 5px 5px 5px 5px var(--color-secundary), -5px -5px 5px 5px var(--color-secundary);
 }
 
@@ -225,8 +230,6 @@ main {
     bottom: 15px;
     left: 15px;
     color: var(--color-tertiary);
-    /* -webkit-text-stroke-width: 1px; */
-    /* -webkit-text-stroke-color: #000; */
 }
 
 footer {
