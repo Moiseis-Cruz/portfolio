@@ -25,4 +25,6 @@ Usei vária propriedades para estilização, como por exemplo, display: grid e f
 Muitas tags adicionei a marcação também, divs, sections, etc. Sem exagerar nas tags. Tudo isso para dixar um trabalho bem feito, com um bom clean code.
 
 
+
+
 <img src="./src/images/meu-portfolio-concluido.gif" alt="Meu Portfólio">
