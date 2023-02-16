@@ -1,11 +1,9 @@
 :root {
-    --color-hover: #00b95f;
+    --color-hover: #b9c3a9;
     --color-secundary: #f4f4f2;
     --color-tertiary: #ab0110;
     --color-quartiary: #282828;
-    --color-active: #007fff;
+    --color-active: #709701;
 
     --color-primary: #eb4d6a;
 }
-
-/* Coloquei um comentário para testes... */
