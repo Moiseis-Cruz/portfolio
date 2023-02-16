@@ -52,8 +52,9 @@ a:active {
     font-size: 4.5rem;
     font-weight: 600;
     text-align: center;
-    background-image: linear-gradient(to right, #00b95f, #007fff);
+    text-decoration: underline;
+    /* background-image: linear-gradient(to right, #00b95f, #007fff);
     background-clip: text;
     -webkit-background-clip: text;
-    color: transparent;
+    color: transparent; */
 }
