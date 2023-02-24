@@ -54,3 +54,9 @@ a:active {
     text-align: center;
     text-decoration: underline;
 }
+
+/* Adicionei um reset para IMGs, porém, devo ficar observando... */
+img {
+    width: 100%;
+    height: auto;
+}
