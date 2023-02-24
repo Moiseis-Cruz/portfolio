@@ -187,6 +187,36 @@ main {
     gap: 15px;
 }
 
+/* .project {
+    width: 300px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 400px;
+    overflow: hidden;
+    border: 3px solid var(--color-tertiary);
+    padding: 10px;
+    color: var(--color-quartiary);
+}
+
+.project:hover {
+    background-color: var(--color-primary);
+    box-shadow: 0 0 50px 20px rgba(201, 201, 201, 0.305);
+    transform: scale(1.1);
+}
+
+.projects .project h3 {
+    margin-top: 10px;
+}
+
+.projects .project p {
+    margin-top: 15px;
+}
+
+.projects .project small {
+    display: inline-block;
+    margin-top: 20px;
+} */
+
 .projects .container-projects .project {
     margin: auto;
     max-width: 550px;
