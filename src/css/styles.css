@@ -62,7 +62,7 @@ main {
     max-height: 450px;
     border-radius: 50%;
     /* box-shadow: 5px 5px 5px 5px rgb(53, 53, 53), -5px -5px 5px rgb(157, 157, 157); */
-    box-shadow: 0 0 10px 10px rgb(119, 119, 119);
+    box-shadow: 0 0 5px 5px rgb(119, 119, 119);
     padding: 15px;
 }
 
