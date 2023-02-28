@@ -178,7 +178,6 @@ main {
 
 .projects .container-projects {
     display: grid;
-    place-content: center;
     width: 100%;
     min-height: 627px;
     overflow-y: scroll;
@@ -187,8 +186,6 @@ main {
     padding: 100px 15px;
     gap: 15px;
 }
-
-/* Aqui começa as nova estilizações dos cards dos projetos (Tudo o que estiver comentado, é por tempo provisório.). */
 
 .projects .container-projects a {
     width: 300px;
