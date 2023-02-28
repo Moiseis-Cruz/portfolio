@@ -178,70 +178,53 @@ main {
 
 .projects .container-projects {
     display: grid;
+    place-content: center;
     width: 100%;
-    height: 627px;
+    min-height: 627px;
     overflow-y: scroll;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     margin-top: 50px;
-    padding: 15px;
+    padding: 100px 15px;
     gap: 15px;
 }
 
-/* .project {
+/* Aqui começa as nova estilizações dos cards dos projetos (Tudo o que estiver comentado, é por tempo provisório.). */
+
+.projects .container-projects a {
     width: 300px;
     background-color: #ffffff;
     border-radius: 10px;
     height: 400px;
-    overflow: hidden;
     border: 3px solid var(--color-tertiary);
     padding: 10px;
     color: var(--color-quartiary);
+    transition: 0.5s;
+    opacity: 0.2;
+    margin: auto;
 }
 
-.project:hover {
+.projects .container-projects a:hover {
     background-color: var(--color-primary);
     box-shadow: 0 0 50px 20px rgba(201, 201, 201, 0.305);
     transform: scale(1.1);
+    color: #ffffff;
+    opacity: 1;
 }
 
 .projects .project h3 {
     margin-top: 10px;
+    height: 50px;
 }
 
 .projects .project p {
     margin-top: 15px;
+    height: 120px;
+    overflow-y: scroll;
 }
 
 .projects .project small {
     display: inline-block;
-    margin-top: 20px;
-} */
-
-.projects .container-projects .project {
-    margin: auto;
-    max-width: 550px;
-    max-height: auto;
-    position: relative;
-}
-
-.projects .container-projects .project img {
-    width: 100%;
-    transition: 0.3s ease-in-out;
-}
-
-.projects .container-projects .project img:not(:hover) {
-    opacity: 0.3;
-}
-
-.projects .container-projects .project img:hover {
-    transform: scale(1.05);
-}
-
-.projects .informations {
-    position: absolute;
-    bottom: 15px;
-    left: 15px;
-    color: var(--color-tertiary);
+    margin-top: 15px;
 }
 
 footer {
