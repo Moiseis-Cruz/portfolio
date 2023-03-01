@@ -179,7 +179,8 @@ main {
 .projects .container-projects {
     display: grid;
     width: 100%;
-    min-height: 627px;
+    height: 627px;
+    text-align: center;
     overflow-y: scroll;
     grid-template-columns: repeat(3, 1fr);
     margin-top: 50px;
