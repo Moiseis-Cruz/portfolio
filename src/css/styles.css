@@ -215,6 +215,7 @@ main {
 }
 
 .projects .project p {
+    text-align: start;
     margin-top: 15px;
     height: 120px;
     overflow-y: scroll;
