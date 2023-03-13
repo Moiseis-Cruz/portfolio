@@ -2,7 +2,9 @@ body {
     font-size: 1.6rem;
     color: var(--color-secundary);
     font-family: 'Raleway', sans-serif;
-    background-color: var(--color-quartiary);
+    /* background-color: var(--color-quartiary); */
+    background-image: linear-gradient(to top, black, #221133);
+    background-attachment: fixed;
 }
 
 main {
