@@ -2,7 +2,6 @@ body {
     font-size: 1.6rem;
     color: var(--color-secundary);
     font-family: 'Raleway', sans-serif;
-    /* background-color: var(--color-quartiary); */
     background-image: linear-gradient(to top, black, #221133);
     background-attachment: fixed;
 }
@@ -220,7 +219,7 @@ main {
     text-align: start;
     margin-top: 15px;
     height: 120px;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 .projects .project small {
