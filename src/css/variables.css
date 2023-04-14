@@ -1,5 +1,5 @@
 :root {
-    --color-primary: #9538df;
+    --color-primary: #b688dd;
     --color-secundary: #f4f4f2;
     --color-tertiary: #581051;
     --color-quartiary: #282828;
@@ -7,3 +7,6 @@
     --color-hover: #91ad44;
     --color-active: #709701;
 }
+
+
+    /* --color-primary: #9538df; */
