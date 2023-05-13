@@ -1,7 +1,11 @@
-@media (max-width: 1000px) {
+@media (max-width: 1002px) {
     .hero {
         text-align: center;
         justify-content: center;
+    }
+
+    .hero .container-hero {
+        flex-direction: column;
     }
 
     .hero .hero-image {
