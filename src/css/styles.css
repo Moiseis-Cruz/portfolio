@@ -11,13 +11,12 @@ main {
     max-width: 1140px;
 }
 
-.hero .container-hero{
+.hero .container-hero {
     padding: 30px 40px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
 }
 
 .hero p {
