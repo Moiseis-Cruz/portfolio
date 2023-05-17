@@ -198,9 +198,7 @@ main {
     padding: 10px;
     color: var(--color-quartiary);
     transition: 0.5s;
-    /* opacity: 0.2; */
     filter: grayscale(1);
-    /* object-fit: cover; */
     margin: auto;
 }
 
@@ -209,7 +207,6 @@ main {
     box-shadow: 0 0 50px 20px rgba(201, 201, 201, 0.305);
     transform: scale(1.1);
     color: #ffffff;
-    /* opacity: 1; */
     filter: none;
 }
 
