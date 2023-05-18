@@ -1,9 +1,8 @@
 body {
-    font-size: 1.6rem;
     color: var(--color-secundary);
-    font-family: 'Raleway', sans-serif;
     background-image: linear-gradient(to top, #000000, #221133);
     background-attachment: fixed;
+    font: 1.6rem 'Raleway', sans-serif;
 }
 
 main {
@@ -114,11 +113,11 @@ main {
     padding: 10px 20px;
     background-color: var(--color-tertiary);
     border-radius: 15px;
-    font-size: 2.4rem;
     margin-top: 20px;
-    font-weight: 300;
     box-shadow: -5px -5px 5px;
     transition: 0.5s ease-in-out;
+    background-color: red;
+    font: 300 2.4rem 'Poppins', sans-serif;
 }
 
 .container-about-description a:hover {
@@ -155,14 +154,11 @@ main {
 }
 
 .skills .container-skills .name-skill {
-    font-size: 3rem;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 300;
+    font: 300 3rem 'Poppins', sans-serif;
 }
 
 .skills .container-skills .description-skill {
-    font-size: 1.8rem;
-    font-weight: 300;
+    font: 300 1.8rem 'Poppins', sans-serif;
 }
 
 .skills .container-skills .skill .icon {
