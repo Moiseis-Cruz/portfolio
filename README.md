@@ -27,4 +27,4 @@ Muitas tags adicionei a marcação também, divs, sections, etc. Tudo isto pondo
 
 
 
-<img src="./src/images/meu-portifolio-1.gif" alt="Meu Portfólio">
+<img src="" alt="Meu Portfólio">
