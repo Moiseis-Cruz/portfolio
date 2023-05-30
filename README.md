@@ -2,7 +2,9 @@
 
 Este é o um projeto pessoal. Onde desenvolvi meu próprio portfólio.
 
-Nele você verá alguns dos meus projetos mais complexos. Que se encontram na seção de "Projetos".
+Você irá ver um pouco sobre min, as minhas habilidades com uma boa base, também terá os meus projetos, e, encontrará a minhas principais redes sociais.
+
+Nele você verá alguns dos meus projetos mais complexos. Que se encontram na seção de "Projetos". Assim, podendo ver a minha constante evolução.
 
 ```
 Sem falar que, o meu portfólio por si mesmo, já é mais um projeto.
@@ -27,4 +29,4 @@ Muitas tags adicionei a marcação também, divs, sections, etc. Tudo isto pondo
 
 
 
-<img src="" alt="Meu Portfólio">
+<img src="./src/gif/portfolio.gif" alt="Meu Portfólio">
