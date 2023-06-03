@@ -1,7 +1,17 @@
 const btnSection = document.querySelectorAll(".btn-section")
 
-btnSection.forEach(e => {
-    const section = document.querySelectorAll("#sobre-mim, #meus-projetos, #habilidades")
+const section = document.querySelectorAll(".section")
 
-    section
-});
+btnSection.forEach((btn, i) => {
+    btn.addEventListener("click", () => {
+        desativarSecaoAtiva()
+
+        section[i].classList.toggle("active")
+    })
+})
+
+function desativarSecaoAtiva() {
+    const sectionActive = document.querySelector(".active")
+
+    sectionActive.classList.remove("active")
+}
