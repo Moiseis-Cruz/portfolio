@@ -256,3 +256,11 @@ footer .contacts ul li a:hover {
 footer .contacts ul li a:active {
     color: var(--color-active);
 }
+
+.section {
+    display: none;
+}
+
+.active {
+    display: block;
+}
