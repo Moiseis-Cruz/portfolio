@@ -16,6 +16,7 @@ Vai reparar que me dediquei muito para fazer um trabalho bem feito e com um óti
 ## Tecnologias ultilizadas:
 - HTML;
 - CSS;
+- JS (JavaScript);
 <br><br><br>
 
 ## Objetivo:
