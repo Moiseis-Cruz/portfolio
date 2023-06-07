@@ -262,6 +262,10 @@ footer .contacts ul li a:active {
     color: var(--color-active);
 }
 
+.color-selected {
+    background-color: var(--color-primary);
+}
+
 .section {
     display: none;
 }

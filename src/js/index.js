@@ -7,11 +7,22 @@ btnSection.forEach((btn, i) => {
         desativarSecaoAtiva()
 
         section[i].classList.toggle("active")
+
+        mudarCorBotao()
+
+        btnSection[i].classList.toggle("color-selected")
     })
+
 })
 
 function desativarSecaoAtiva() {
     const sectionActive = document.querySelector(".active")
 
     sectionActive.classList.remove("active")
+}
+
+function mudarCorBotao() {
+    const btnColored = document.querySelector(".color-selected")
+
+    btnColored.classList.remove("color-selected")
 }
