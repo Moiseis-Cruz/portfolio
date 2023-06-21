@@ -10,6 +10,10 @@ main {
     max-width: 1140px;
 }
 
+section {
+    animation: slidein 5s forwards;
+}
+
 .hero .container-hero {
     padding: 30px 40px;
     width: 100%;
@@ -116,7 +120,6 @@ main {
     margin-top: 20px;
     box-shadow: -5px -5px 5px;
     transition: 0.5s ease-in-out;
-    background-color: red;
     font: 300 2.4rem 'Poppins', sans-serif;
 }
 
@@ -273,3 +276,15 @@ footer .contacts ul li a:active {
 .active {
     display: block;
 }
+
+@keyframes slidein {
+    0% {
+      opacity: 0;
+      margin-top: 100px;
+    }
+  
+    100% {
+      opacity: 1;
+      margin-top: 0;
+    }
+  }
