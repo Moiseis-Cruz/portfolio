@@ -1,3 +1,8 @@
+window.scroll({
+    top:0,
+    behavior:"smooth"
+});
+
 const btnSection = document.querySelectorAll(".btn-section")
 
 const section = document.querySelectorAll(".section")
