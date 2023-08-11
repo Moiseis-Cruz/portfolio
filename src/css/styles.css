@@ -11,7 +11,7 @@ main {
 }
 
 section {
-    animation: slidein 5s forwards;
+    animation: slidein 2.5s forwards;
 }
 
 .hero .container-hero {
@@ -280,11 +280,11 @@ footer .contacts ul li a:active {
 @keyframes slidein {
     0% {
       opacity: 0;
-      margin-top: 100px;
+      transform: translateY(100px);
     }
-  
+    
     100% {
-      opacity: 1;
-      margin-top: 0;
+        opacity: 1;
+        transform: translateY(0);
     }
   }
