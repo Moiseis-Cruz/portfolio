@@ -2,7 +2,7 @@
 
 Este é o um projeto pessoal. Onde desenvolvi meu próprio portfólio.
 
-Você irá ver um pouco sobre min, as minhas habilidades com uma boa base, também terá os meus projetos, e, encontrará a minhas principais redes sociais.
+Você irá ver um pouco sobre mim, as minhas habilidades com uma boa base, também terá os meus projetos, e, encontrará a minhas principais redes sociais.
 
 Nele você verá alguns dos meus projetos mais complexos. Que se encontram na seção de "Projetos". Assim, podendo ver a minha constante evolução.
 
