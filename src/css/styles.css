@@ -227,14 +227,61 @@ section {
 }
 
 footer {
-    background: #000 url(../images/tech.jpg) no-repeat center center fixed;
+    background: #000 url(../images/bg-footer.jpg) no-repeat center center fixed;
     background-size: cover;
     width: 100%;
     padding: 40px;
     text-align: center;
 }
 
-footer .contacts {
+footer .fomulary {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    margin: 10px auto 0;
+}
+
+footer .fomulary div:first-child {
+    margin-top: 0;
+}
+
+footer .fomulary div {
+    margin-top: 20px;
+}
+
+footer .fomulary label {
+    font-size: 2rem;
+    font-weight: 700;
+    text-shadow: 0 0 5px var(--color-primary);
+}
+
+footer .fomulary input, textarea {
+    width: 100%;
+    font-size: 1.6rem;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+footer .fomulary .btn-email {
+    background-color: var(--color-primary);
+    margin-top: 20px;
+    font-weight: 700;
+    color: var(--color-secundary);
+    height: 60px;
+    cursor: pointer;
+}
+
+footer .fomulary .btn-email:hover {
+    background-color: var(--color-hover);
+}
+
+footer .fomulary .btn-email:active {
+    background-color: var(--color-active);
+    transform: scale(0.99);
+}
+
+/* footer .contacts {
     font-size: 2rem;
     margin-top: 50px;
 }
@@ -263,7 +310,7 @@ footer .contacts ul li a:hover {
 
 footer .contacts ul li a:active {
     color: var(--color-active);
-}
+} */
 
 .color-selected {
     background-color: var(--color-primary);
