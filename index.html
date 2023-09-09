@@ -60,6 +60,11 @@
                         <li><a href="https://www.instagram.com/moisescruz3551/?next=%2F" target="_blank">
                             <i class="fab fa-instagram"></i>
                         </a></li>
+                        <li>
+                            <a href="mailto:moizzito@gmail.com">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="hero-image">
@@ -286,7 +291,34 @@
     <footer>
         <h3>Vamos conversar... <br> Envie-me uma mensagem!</h3>
 
-        <div class="contacts">
+                <form class="fomulary" id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/meqbkvgb" method="post">
+
+                <div>
+                    <p>
+                        <label for="full-name">Full Name</label>
+                    </p>
+                    <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+                </div>
+
+                <div>
+                    <p>
+                        <label for="email-address">Email Address</label>
+                    </p>
+                    <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+                </div>
+
+                <div>
+                    <p>
+                        <label for="message">Message</label>
+                    </p>
+                    <textarea rows="5" name="message" id="message" placeholder="Fale comigo!" required=""></textarea>
+                </div>
+                <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+
+                <input class="btn-email" type="submit" value="Submit">
+          </form>
+
+        <!-- <div class="contacts">
             <ul>
                 <li><a href="https://www.linkedin.com/in/mois%C3%A9s-cruz-b88990248/" target="_blank">
                     <i class="fab fa-linkedin-in"></i>
@@ -306,7 +338,7 @@
                     </a>
                 </li>
             </ul>
-        </div>
+        </div> -->
     </footer>
 
     <script src="./src/js/index.js"></script>
