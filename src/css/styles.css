@@ -281,37 +281,6 @@ footer .fomulary .btn-email:active {
     transform: scale(0.99);
 }
 
-/* footer .contacts {
-    font-size: 2rem;
-    margin-top: 50px;
-}
-
-footer .contacts ul {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-}
-
-footer .contacts ul li a {
-    width: 50px;
-    height: 50px;
-    border: 2px solid transparent;
-    box-shadow: 5px 5px 5px rgb(15, 15, 15), -5px -5px 5px rgb(175, 175, 175);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 20px;
-    transition: 0.5s ease-in-out;
-}
-
-footer .contacts ul li a:hover {
-    color: var(--color-hover);
-}
-
-footer .contacts ul li a:active {
-    color: var(--color-active);
-} */
-
 .color-selected {
     background-color: var(--color-primary);
 }
