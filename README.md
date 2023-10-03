@@ -14,6 +14,7 @@ Vai reparar que me dediquei muito para fazer um trabalho bem feito e com um óti
 <br><br><br>
 
 ## Tecnologias ultilizadas:
+
 - HTML;
 - CSS;
 - JS (JavaScript);
