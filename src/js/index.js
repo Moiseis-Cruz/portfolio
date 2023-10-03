@@ -31,3 +31,13 @@ function mudarCorBotao() {
 
     btnColored.classList.remove("color-selected")
 }
+
+const btnSubmit = document.querySelector(".btn-email")
+
+btnSubmit.addEventListener("click", () => {
+    if(btnSubmit === true){
+        alert("Muito obrigado pelo teu e-mail!")
+    }else{
+        alert("Preencha todos os campos obrigatórios. Por favor!")
+    }
+})
