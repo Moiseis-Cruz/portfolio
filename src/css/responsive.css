@@ -33,6 +33,26 @@
     .projects .container-projects {
         grid-template-columns: repeat(1, 1fr);
     }
+
+    .projects .container-projects a {
+        filter: none;
+    }
+
+    .projects .container-projects a:hover {
+        background-color: #ffffff;
+        box-shadow: none;
+        transform: scale(1);
+        color: var(--color-quartiary);
+        filter: none;
+    }
+
+    .projects .container-projects a:active {
+        background-color: var(--color-primary);
+        box-shadow: 0 0 50px 20px rgba(201, 201, 201, 0.305);
+        transform: scale(1.1);
+        color: #ffffff;
+        filter: none;
+    }
 }
 
 @media (max-width: 350px) {
