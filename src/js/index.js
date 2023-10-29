@@ -31,3 +31,18 @@ function mudarCorBotao() {
 
     btnColored.classList.remove("color-selected")
 }
+
+const btnFormulary = document.getElementById('btn-email')
+
+btnFormulary.addEventListener('click', function (event) {
+    var name = document.getElementById('full-name').value;
+    var email = document.getElementById('email-address').value;
+    var message = document.getElementById('message').value;
+
+    if (name === '' || email === '' || message === '') {
+        event.preventDefault();
+        alert('Por favor, preencha todos os campos antes de enviar.');
+    } else {
+        alert('Muito obrigado por entrar em contato comigo! Entro em contato logo, logo.');
+    }
+});
