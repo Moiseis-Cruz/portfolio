@@ -34,7 +34,7 @@ function mudarCorBotao() {
 
 const btnFormulary = document.getElementById('btn-email')
 
-btnFormulary.addEventListener('click', function (event) {
+btnFormulary.addEventListener('submit', function (event) {
     var name = document.getElementById('full-name').value;
     var email = document.getElementById('email-address').value;
     var message = document.getElementById('message').value;
